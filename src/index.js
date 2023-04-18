@@ -10,12 +10,12 @@ const setupAndStartServe = () => {
 
     app.listen(PORT, () => {
         console.log(`Server Started at ${PORT}`);
-        sendBasicEmail(
-            'support@booking.com',
-            '7851950798aneesh@gmail.com',
-            'This is a test mail',
-            'Hey, how are you'
-        )
+        // sendBasicEmail(
+        //     'support@booking.com',
+        //     '7851950798aneesh@gmail.com',
+        //     'This is a test mail',
+        //     'Hey, how are you'
+        // )
     })
 }
 
